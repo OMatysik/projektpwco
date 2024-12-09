@@ -66,7 +66,7 @@ $items = mysqli_fetch_all($result, MYSQLI_ASSOC);
     <body>
 
         <div class="container mt-5">
-            <h2>Add New Item</h2>
+            <h2>Testujemy na produkcji auauauauauauauuuuuu</h2>
             <!-- From to Add Data -->
             <form action="index.php" method="post">
                <div class="form-group mb-2">
