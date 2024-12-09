@@ -1,9 +1,9 @@
 <?php
 
-$host = 'localhost';
-$user = 'root';
-$password = '';
-$dbname = 'crud_app';
+$host = 'projektpwcomysql.mysql.database.azure.com';
+$user = 'projektpwco';
+$password = 'Tojesthaslo123';
+$dbname = 'projektpwcomysql';
 
 $conn = mysqli_connect($host, $user, $password, $dbname);
 
