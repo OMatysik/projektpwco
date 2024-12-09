@@ -1,7 +1,15 @@
 <?php
 
-$con = mysqli_init();
-mysqli_ssl_set($con,NULL,NULL, "{path to CA cert}", NULL, NULL);
-mysqli_real_connect($conn, "projektpwcomysql.mysql.database.azure.com", "projektpwco", "Tojesthaslo123", "projektpwcomysql", 3306, MYSQLI_CLIENT_SSL);
+$host = 'projektpwcomysql.mysql.database.azure.com';
+$user = 'projektpwco';
+$password = 'Tojesthaslo123';
+$dbname = 'projektpwcomysql';
+
+$conn = mysqli_connect($host, $user, $password, $dbname);
+
+if(!$conn){
+    die("Connection Failed: " . mysqli_connect_error());
+
+}
 
 ?>
