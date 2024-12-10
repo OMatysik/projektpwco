@@ -84,7 +84,7 @@ $items = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 
                <!-- Items List -->
-        <h2 class="mt-5">Items List</h2>
+        <h2 class="mt-5">Test112233</h2>
         <table class="table table-dark table-striped">
             <thead>
                 <tr>
